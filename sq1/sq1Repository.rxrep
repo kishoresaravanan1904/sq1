@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<repository
+name="sq1Repository"
+id="16f1519b-a35a-4bca-8450-676648cac2e8">
+  <codegen
+  classname="sq1Repository"
+  namespace="sq1"/>
+  <rootfolder
+  name="Root"
+  id="97904eb2-bb19-4994-8501-d17ec8209b85"
+  searchtimeout="30000ms"
+  capname="unknown"
+  isrooted="True"
+  usecache="True">
+    <basepath/>
+  </rootfolder>
+  <variables/>
+</repository>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="sq1"
+      id="cf5d9565-3dd1-4e29-892a-8a6bc573200a"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="sq1"
+      id="cf5d9565-3dd1-4e29-892a-8a6bc573200a"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>
