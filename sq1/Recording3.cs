@@ -79,6 +79,8 @@ namespace sq1
 
             Init();
 
+            Report.Log(ReportLevel.Info, "User", "hello ranorex", new RecordItemIndex(0));
+            
         }
 
 #region Image Feature Data

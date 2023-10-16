@@ -25,6 +25,18 @@ mode="Global">
 	<variables>
 	</variables>
 	<recorditems>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message="hello ranorex"
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="9a7d7861-d8a9-4be6-85a0-528bd0b1a4c4">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</loggingrecorditem>
 	</recorditems>
 	<repository
 	id="16f1519b-a35a-4bca-8450-676648cac2e8"
