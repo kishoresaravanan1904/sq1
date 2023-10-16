@@ -79,7 +79,17 @@ namespace sq1
 
             Init();
 
-            Report.Log(ReportLevel.Info, "User", "hello", new RecordItemIndex(0));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.EnterYourName' at 48;9.", repo.RxMainFrame.EnterYourNameInfo, new RecordItemIndex(0));
+            repo.RxMainFrame.EnterYourName.Click("48;9");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'rano' with focus on 'RxMainFrame.EnterYourName'.", repo.RxMainFrame.EnterYourNameInfo, new RecordItemIndex(1));
+            repo.RxMainFrame.EnterYourName.PressKeys("rano");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.BtnSubmitUserName' at 6;5.", repo.RxMainFrame.BtnSubmitUserNameInfo, new RecordItemIndex(2));
+            repo.RxMainFrame.BtnSubmitUserName.Click("6;5");
+            Delay.Milliseconds(0);
             
         }
 

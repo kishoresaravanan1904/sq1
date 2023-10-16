@@ -27,6 +27,7 @@ namespace sq1
     public partial class sq1Repository : RepoGenBaseFolder
     {
         static sq1Repository instance = new sq1Repository();
+        sq1RepositoryFolders.RxMainFrameAppFolder _rxmainframe;
 
         /// <summary>
         /// Gets the singleton class instance representing the sq1Repository element repository.
@@ -43,6 +44,7 @@ namespace sq1
         public sq1Repository() 
             : base("sq1Repository", "/", null, 0, false, "97904eb2-bb19-4994-8501-d17ec8209b85", ".\\RepositoryImages\\sq1Repository97904eb2.rximgres")
         {
+            _rxmainframe = new sq1RepositoryFolders.RxMainFrameAppFolder(this);
         }
 
 #region Variables
@@ -60,6 +62,15 @@ namespace sq1
                 return _selfInfo;
             }
         }
+
+        /// <summary>
+        /// The RxMainFrame folder.
+        /// </summary>
+        [RepositoryFolder("ffff9d84-f222-487f-8bc5-ee26d48989fa")]
+        public virtual sq1RepositoryFolders.RxMainFrameAppFolder RxMainFrame
+        {
+            get { return _rxmainframe; }
+        }
     }
 
     /// <summary>
@@ -68,6 +79,98 @@ namespace sq1
     [System.CodeDom.Compiler.GeneratedCode("Ranorex", global::Ranorex.Core.Constants.CodeGenVersion)]
     public partial class sq1RepositoryFolders
     {
+        /// <summary>
+        /// The RxMainFrameAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("ffff9d84-f222-487f-8bc5-ee26d48989fa")]
+        public partial class RxMainFrameAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _enteryournameInfo;
+            RepoItemInfo _btnsubmitusernameInfo;
+
+            /// <summary>
+            /// Creates a new RxMainFrame  folder.
+            /// </summary>
+            public RxMainFrameAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("RxMainFrame", "/form[@controlname='RxMainFrame']", parentFolder, 30000, null, true, "ffff9d84-f222-487f-8bc5-ee26d48989fa", "")
+            {
+                _enteryournameInfo = new RepoItemInfo(this, "EnterYourName", "?/?/tabpage[@controlname='RxTabIntroduction']/?/?/text[@accessiblename='Enter your name']", ".//text[@accessiblename='Enter your name']", 30000, null, "61ee3f16-f491-436a-951e-854089e67e4e");
+                _btnsubmitusernameInfo = new RepoItemInfo(this, "BtnSubmitUserName", "?/?/tabpage[@controlname='RxTabIntroduction']/button[@controlname='btnSubmitUserName']", ".//button[@controlname='btnSubmitUserName']", 30000, null, "6941942f-cb71-4152-9ab9-9bb6689c4fa8");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("ffff9d84-f222-487f-8bc5-ee26d48989fa")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("ffff9d84-f222-487f-8bc5-ee26d48989fa")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The EnterYourName item.
+            /// </summary>
+            [RepositoryItem("61ee3f16-f491-436a-951e-854089e67e4e")]
+            public virtual Ranorex.Text EnterYourName
+            {
+                get
+                {
+                    return _enteryournameInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The EnterYourName item info.
+            /// </summary>
+            [RepositoryItemInfo("61ee3f16-f491-436a-951e-854089e67e4e")]
+            public virtual RepoItemInfo EnterYourNameInfo
+            {
+                get
+                {
+                    return _enteryournameInfo;
+                }
+            }
+
+            /// <summary>
+            /// The BtnSubmitUserName item.
+            /// </summary>
+            [RepositoryItem("6941942f-cb71-4152-9ab9-9bb6689c4fa8")]
+            public virtual Ranorex.Button BtnSubmitUserName
+            {
+                get
+                {
+                    return _btnsubmitusernameInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The BtnSubmitUserName item info.
+            /// </summary>
+            [RepositoryItemInfo("6941942f-cb71-4152-9ab9-9bb6689c4fa8")]
+            public virtual RepoItemInfo BtnSubmitUserNameInfo
+            {
+                get
+                {
+                    return _btnsubmitusernameInfo;
+                }
+            }
+        }
+
     }
 #pragma warning restore 0436
 }
