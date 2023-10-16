@@ -2,11 +2,11 @@
   {
     "Enabled": "True",
     "TestSuite": "sq1",
-    "RunConfig": "TestRun"
+    "RunConfig": "regression"
   },
   {
     "Enabled": "True",
     "TestSuite": "TestSuite1",
-    "RunConfig": "TestRun"
+    "RunConfig": "smoke"
   }
 ]

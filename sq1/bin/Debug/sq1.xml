@@ -141,9 +141,54 @@
             The Self item info.
             </summary>
         </member>
+        <member name="P:sq1.sq1Repository.RxMainFrame">
+            <summary>
+            The RxMainFrame folder.
+            </summary>
+        </member>
         <member name="T:sq1.sq1RepositoryFolders">
             <summary>
             Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:sq1.sq1RepositoryFolders.RxMainFrameAppFolder">
+            <summary>
+            The RxMainFrameAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:sq1.sq1RepositoryFolders.RxMainFrameAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new RxMainFrame  folder.
+            </summary>
+        </member>
+        <member name="P:sq1.sq1RepositoryFolders.RxMainFrameAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:sq1.sq1RepositoryFolders.RxMainFrameAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:sq1.sq1RepositoryFolders.RxMainFrameAppFolder.EnterYourName">
+            <summary>
+            The EnterYourName item.
+            </summary>
+        </member>
+        <member name="P:sq1.sq1RepositoryFolders.RxMainFrameAppFolder.EnterYourNameInfo">
+            <summary>
+            The EnterYourName item info.
+            </summary>
+        </member>
+        <member name="P:sq1.sq1RepositoryFolders.RxMainFrameAppFolder.BtnSubmitUserName">
+            <summary>
+            The BtnSubmitUserName item.
+            </summary>
+        </member>
+        <member name="P:sq1.sq1RepositoryFolders.RxMainFrameAppFolder.BtnSubmitUserNameInfo">
+            <summary>
+            The BtnSubmitUserName item info.
             </summary>
         </member>
         <member name="T:__RxMain.__RxProgram">
