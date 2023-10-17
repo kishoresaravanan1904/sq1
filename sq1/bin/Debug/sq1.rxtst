@@ -45,6 +45,16 @@
 			reportlevel="Info;20">
 			</testcase>
 			<testcase
+			id="ae10e08d-b0de-454f-8c5e-4e25830965fc"
+			name="TestCase1">
+			</testcase>
+			<testmodule
+			id="f2089950-7b02-487e-a6a3-7a3383bbda61"
+			name="Recording4"
+			ref="42c46e4f-7d75-42f9-a85e-2c1e80f49801"
+			type="Recording">
+			</testmodule>
+			<testcase
 			id="feed5805-3981-4536-905f-4cca23d883d4"
 			name="TestCase">
 			</testcase>
@@ -64,6 +74,14 @@
 						name="Recording1">
 						</testmodule>
 					</testcase>
+					<testcase
+					id="ae10e08d-b0de-454f-8c5e-4e25830965fc"
+					name="TestCase1">
+						<testmodule
+						id="f2089950-7b02-487e-a6a3-7a3383bbda61"
+						name="Recording4">
+						</testmodule>
+					</testcase>
 				</testcase>
 			</testsuite>
 		</childhierarchy>
@@ -71,14 +89,35 @@
 	<datasources>
 	</datasources>
 	<testconfigurations
-	default="TestRun">
+	default="retesting">
 		<testconfiguration
-		name="TestRun">
+		name="regression">
 			<testcontainer
 			id="6fe2fa6f-78c0-4a83-8020-fb8205d7d46b">
 			</testcontainer>
 			<testcontainer
 			id="feed5805-3981-4536-905f-4cca23d883d4">
+			</testcontainer>
+		</testconfiguration>
+		<testconfiguration
+		name="retesting">
+			<testcontainer
+			id="6fe2fa6f-78c0-4a83-8020-fb8205d7d46b">
+			</testcontainer>
+			<testcontainer
+			id="ae10e08d-b0de-454f-8c5e-4e25830965fc">
+			</testcontainer>
+			<testcontainer
+			id="feed5805-3981-4536-905f-4cca23d883d4">
+			</testcontainer>
+		</testconfiguration>
+		<testconfiguration
+		name="smoke">
+			<testcontainer
+			id="6fe2fa6f-78c0-4a83-8020-fb8205d7d46b">
+			</testcontainer>
+			<testcontainer
+			id="ae10e08d-b0de-454f-8c5e-4e25830965fc">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>

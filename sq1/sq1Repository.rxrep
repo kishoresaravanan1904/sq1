@@ -20,7 +20,7 @@ name="sq1Repository">
 		name="RxMainFrame"
 		refpath="/form[@controlname='RxMainFrame']"
 		searchtimeout="30000ms"
-		usecache="True">
+		usecache="False">
 			<item
 			addcaps="text,accessible"
 			capname="text"

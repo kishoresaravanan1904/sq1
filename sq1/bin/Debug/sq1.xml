@@ -121,6 +121,45 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
+        <member name="T:sq1.Recording4">
+             <summary>
+            The Recording4 recording.
+             </summary>
+        </member>
+        <member name="F:sq1.Recording4.repo">
+            <summary>
+            Holds an instance of the sq1Repository repository.
+            </summary>
+        </member>
+        <member name="M:sq1.Recording4.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:sq1.Recording4.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:sq1.Recording4.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:sq1.Recording4.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:sq1.Recording4.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:sq1.Recording4.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
         <member name="T:sq1.sq1Repository">
             <summary>
             The class representing the sq1Repository element repository.

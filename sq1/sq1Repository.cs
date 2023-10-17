@@ -92,7 +92,7 @@ namespace sq1
             /// Creates a new RxMainFrame  folder.
             /// </summary>
             public RxMainFrameAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("RxMainFrame", "/form[@controlname='RxMainFrame']", parentFolder, 30000, null, true, "ffff9d84-f222-487f-8bc5-ee26d48989fa", "")
+                    base("RxMainFrame", "/form[@controlname='RxMainFrame']", parentFolder, 30000, null, false, "ffff9d84-f222-487f-8bc5-ee26d48989fa", "")
             {
                 _enteryournameInfo = new RepoItemInfo(this, "EnterYourName", "?/?/tabpage[@controlname='RxTabIntroduction']/?/?/text[@accessiblename='Enter your name']", ".//text[@accessiblename='Enter your name']", 30000, null, "61ee3f16-f491-436a-951e-854089e67e4e");
                 _btnsubmitusernameInfo = new RepoItemInfo(this, "BtnSubmitUserName", "?/?/tabpage[@controlname='RxTabIntroduction']/button[@controlname='btnSubmitUserName']", ".//button[@controlname='btnSubmitUserName']", 30000, null, "6941942f-cb71-4152-9ab9-9bb6689c4fa8");
